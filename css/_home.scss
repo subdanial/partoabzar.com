@@ -1,0 +1,199 @@
+
+.top-nav {
+    .logo img {
+        height: 48px;
+    }
+
+    .menu {
+        a {
+            color: $white;
+            text-decoration: none;
+            margin-left: 32px;  
+            text-align: center;
+            display: inline-block;
+        }
+
+
+        a:after {
+            display: block;
+            content: '';
+            border-bottom: solid 3px $white;
+            transform: scaleX(0);
+            transition: transform 250ms ease-in-out;
+        }
+
+        a:hover:after {
+            transform: scaleX(1);
+        }
+
+        a.fromRight:after {
+            transform-origin: 100% 50%;
+        }
+
+        a.fromLeft:after {
+            transform-origin: 0% 50%;
+        }
+
+
+        svg {
+            @include desktop() {
+                display: none;
+            }
+
+            fill: $white;
+            height: 24px;
+            width: 24px;
+            cursor: pointer;
+            margin-top: 6px;
+        }
+    }
+}
+
+.full-nav {
+    z-index: 1000000;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: $black;
+    color: $white;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 2rem;
+
+    a {
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        line-height: 5rem;
+
+        &.active {
+            color: $black;
+            background-color: $white;
+        }
+    }
+
+    .close {
+        position: absolute;
+        top: 1rem !important;
+        right: 1.5rem;
+        color: white;
+        font-size: 2.5rem;
+        cursor: pointer;
+    }
+}
+
+.about {
+
+    .font-big {
+        position: absolute;
+        font-size: 14rem;
+        margin-left: -4rem;
+        margin-top: -5rem;
+    }
+
+    .hero {
+        @include desktop() {
+            height: calc(100vh - 128px);
+        }
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .context {
+        display: flex;
+        height: 100%;
+
+        .title {
+            text-align: center;
+            font-weight: 400;
+            font-size: 5rem;
+
+            @include desktop() {
+                font-size: 7rem;
+            }
+        }
+
+        .title-mini {
+            // color:$black;
+            // background: $white;
+            font-weight: 600;
+            font-size: 2rem;
+
+            @include desktop() {
+                font-size: 4rem;
+            }
+        }
+
+        .describe {
+            text-align: center;
+            font-size: 1.2rem;
+
+            @include desktop() {
+                font-size: 2rem;
+            }
+        }
+    }
+}
+
+.products {
+    .item {
+        position: relative;
+        margin-bottom: 1.5rem;
+        padding-bottom: 100%;
+        // position: relative;
+        background: red;
+
+        .name {
+            position: absolute;
+            width: 100%;
+            bottom: 1rem;
+            text-align: center;
+        }
+    }
+
+    .title {
+        text-align: center;
+        font-weight: bold;
+
+        font-size: 1.5rem;
+        padding-bottom: 2rem;
+    }
+}
+
+.contact {
+    ::placeholder {
+        color: white;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    #map {
+        width: 100%;
+        height: 350px;
+
+    }
+
+    input[type="text"] {
+        padding: 8px;
+        width: 100%;
+        background: transparent;
+        border: 2px solid white;
+        margin-bottom: .5rem;
+    }
+
+    textarea {
+        padding: 8px;
+        width: 100%;
+        border: 2px solid white;
+        background: transparent;
+    }
+}

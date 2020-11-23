@@ -1,0 +1,29 @@
+$black : #0E0E0E;
+$white :white;
+$lg : 992px;
+
+@mixin desktop {
+    @media(min-width:$lg) {
+        @content;
+    }
+}
+
+body,
+html {
+    height: 100%;
+    background-color: $black;
+    color: $white;
+    scroll-behavior: smooth;
+    
+}
+
+.vh-lg-100 {
+    @include desktop() {
+        height: 100vh;
+    }
+}
+.hr-white{
+    border:0;
+    border-bottom: 1px solid $white;
+    opacity: 1!important;
+}
