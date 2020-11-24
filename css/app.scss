@@ -328,8 +328,11 @@ body::-webkit-scrollbar-thumb {
 
 .hero_buttons {
     pointer-events: all;
-
+    .row{
+        width: 64%;
+    }
     a {
+        
         width: 100%;
         border: 5px solid #E8C178;
         text-align: center;
@@ -339,5 +342,8 @@ body::-webkit-scrollbar-thumb {
         font-weight: 900;
         color:#E8C178;
         line-height: 4rem;
-    }
+        @media (max-width : 992px){
+            margin-bottom: 1rem;
+        }
+   }
 }
