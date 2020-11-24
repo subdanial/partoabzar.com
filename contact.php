@@ -4,7 +4,7 @@
     <div class="full-nav js-full-nav">
         <div class="close js-full-nav-close">&times;</div>
         <div class="links ">
-        <?php get_template_part('template-parts/menu_main', null, array('link_active' => 'contact')); ?>
+            <?php get_template_part('template-parts/menu_main', null, array('link_active' => 'contact')); ?>
 
         </div>
     </div>
@@ -22,7 +22,7 @@
                     </g>
                 </svg>
                 <div class="links d-none d-lg-flex pt-1">
-                <?php get_template_part('template-parts/menu_main', null, array('link_active' => 'contact')); ?>
+                    <?php get_template_part('template-parts/menu_main', null, array('link_active' => 'contact')); ?>
                 </div>
             </div>
         </div>
@@ -40,7 +40,12 @@
                         باما در ارتباط باشید
                     </div>
                     <div class="subtitle text-right pb-2">
-                       مجموعه پرتو ابزار پاسارگاد
+                        مجموعه پرتو ابزار پاسارگاد
+                        <br>
+                        آدرس شركت:
+                        ميدان بني هاشم كوچه كشوري پلاك ١ ساختمان دياموند طبقه ٤ واحد ١٥
+                        <br>
+                        تماس : 021-26320042
                     </div>
                     <div class="row">
                         <div class="col-12"><input type="text" class="form-input text-right" placeholder="نام شما"></div>
