@@ -43,7 +43,7 @@
                                 <a href="<?php get_site_url() ?>/products/">DENTAL PRODUCTS</a>
                             </div>
                             <div class="col-lg-6">
-                                <a href="<?php get_site_url() ?>/products/q?select=medical">MEDICAL PRODUCTS</a>
+                                <a href="<?php get_site_url() ?>/products/?select=medical">MEDICAL PRODUCTS</a>
                             </div>
                         </div>
                     </div>
