@@ -37,6 +37,9 @@
                 <div>
                     <img src="<?= get_template_directory_uri() ?>/img/hero.png" class="hero-image mx-auto d-block">
                     <h1 class="hero-title text-center pt-2" style="color:#E0B86C!important;">PARTO ABZAR PASARGAD</h1>
+                    <div class="hero_buttons">
+                        <a href="#"></a>
+                    </div>
                 </div>
             </div>
         </div>

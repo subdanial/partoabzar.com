@@ -43,9 +43,9 @@
                 <div class="title d-block pb-0 pt-3 ">OUR PRODUCTS</div>
                 <hr class="hr-white w-25 mx-auto">
                 <div class="select text-center mb-4 text-uppercase mt-4">
-                    <span class="option active js-type" data-number="1">physical</span>
+                    <span class="option active js-type" data-number="1">Dental</span>
 
-                    <span class="option js-type" data-number="2">medical</span>
+                    <span class="option js-type" data-number="2">Medical</span>
                 </div>
 
 
