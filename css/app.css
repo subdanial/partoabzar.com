@@ -626,7 +626,7 @@ body::-webkit-scrollbar-thumb {
   text-decoration: none;
   font-size: 2rem;
   font-weight: 900;
-  color: red;
+  color: blue;
   line-height: 4rem;
 }
 
