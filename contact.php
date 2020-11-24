@@ -44,7 +44,7 @@
                         آدرس شركت:
                         ميدان بني  كوچه كشوري پلاك ١ ساختمان دياموند طبقه ٤ واحد ١٥
                         <br>
-                        تماس : 021-26320042
+                        021-تماس : 26320042
                     </div>
                     <div class="row">
                         <div class="col-12"><input type="text" class="form-input text-right" placeholder="نام شما"></div>
