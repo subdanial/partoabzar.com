@@ -197,8 +197,8 @@
         }
 
     })
-
-    if($.urlParam('select') == 'medical'){
+    let searchParams = new URLSearchParams(window.location.search)
+    if(searchParams.get('select') == 'medical'){
         $('[data-number=2]').click();
     }
 </script>
