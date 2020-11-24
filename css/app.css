@@ -615,6 +615,7 @@ body::-webkit-scrollbar-thumb {
 
 .hero_buttons .row {
   width: 64%;
+  margin: auto;
 }
 
 .hero_buttons a {
