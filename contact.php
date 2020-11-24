@@ -64,7 +64,7 @@
 <script src="https://static.neshan.org/sdk/leaflet/1.4.0/leaflet.js" type="text/javascript"></script>
 <script>
     var myMap = new L.Map('map', {
-        key: 'web.XBwlSx3YJ7iiikEV27TOTqwgPMuhUdFM7HV9sGVN',
+        key: 'web.Cfs5nBt1Q8VnQqJrXqPjCJbcw92MjtPzhx9YyZpe',
         maptype: 'dreamy',
         poi: true,
         traffic: false,
