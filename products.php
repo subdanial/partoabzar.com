@@ -197,4 +197,8 @@
         }
 
     })
+
+    if($.urlParam('select') == 'medical'){
+        $('[data-number=2]').click();
+    }
 </script>
