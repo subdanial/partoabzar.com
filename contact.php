@@ -36,17 +36,17 @@
                     </div>
                 </div>
                 <div class="col px-5">
-                    <div class="title">
-                        Get In Touch
+                    <div class="title text-right">
+                        باما در ارتباط باشید
                     </div>
-                    <div class="subtitle pb-2">
-                        Lorem ipsum dolor sit, amet consectetur
+                    <div class="subtitle text-right pb-2">
+                       مجموعه پرتو ابزار پاسارگاد
                     </div>
                     <div class="row">
-                        <div class="col-12"><input type="text" class="form-input" placeholder="Your Name"></div>
-                        <div class="col-12"><input type="text" class="form-input" placeholder="Your Email Address"></div>
-                        <div class="col-12"><textarea name="" cols="20" rows="5" placeholder="Your Email Address" class="mt-2"></textarea></div>
-                        <div class="col-12"><button type="submit" class="btn btn-outline-light rounded-0 border-2 mt-2 mb-4 mb-lg-0">SEND</button></div>
+                        <div class="col-12"><input type="text" class="form-input text-right" placeholder="نام شما"></div>
+                        <div class="col-12"><input type="text" class="form-input text-right" placeholder="آدرس ایمیل شما"></div>
+                        <div class="col-12"><textarea name="" cols="20" rows="5" placeholder="پیغام خود را وارد کنید" class="mt-2 text-right"></textarea></div>
+                        <div class="col-12"><button type="submit" class="text-right btn btn-outline-light rounded-0 border-2 mt-2 mb-4 mb-lg-0">ارسال</button></div>
                     </div>
                 </div>
             </div>
