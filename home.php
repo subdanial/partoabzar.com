@@ -41,16 +41,17 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <a href="<?php get_site_url() ?>/products/">DENTAL PRODUCTS</a>
-
-                                <div class="col-lg-6">
-                                    <a href="<?php get_site_url() ?>/products/">MENTAL PRODUCTS</a></div>
+                            </div>
+                            <div class="col-lg-6">
+                                <a href="<?php get_site_url() ?>/products/">MENTAL PRODUCTS</a>
                             </div>
                         </div>
-
                     </div>
+
                 </div>
             </div>
         </div>
     </div>
+</div>
 </div>
 <?php get_footer(); ?>
