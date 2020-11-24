@@ -608,4 +608,17 @@ body::-webkit-scrollbar-thumb {
     width: max-content !important;
   }
 }
+
+.hero_buttons {
+  pointer-events: all;
+}
+
+.hero_buttons a {
+  width: 100%;
+  border: 2px solid #E8C178;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
 /*# sourceMappingURL=app.css.map */
