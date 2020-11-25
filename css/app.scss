@@ -328,12 +328,14 @@ body::-webkit-scrollbar-thumb {
 
 .hero_buttons {
     pointer-events: all;
-    .row{
+
+    .row {
         width: 64%;
         margin: auto;
     }
+
     a {
-        
+
         width: 100%;
         border: 5px solid #E8C178;
         text-align: center;
@@ -341,12 +343,17 @@ body::-webkit-scrollbar-thumb {
         text-decoration: none;
         font-size: 2rem;
         font-weight: 900;
-        color:#E8C178;
+        color: #E8C178;
         line-height: 4rem;
-        @media (max-width : 992px){
+
+        @media (max-width : 992px) {
             margin-bottom: 1rem;
-            font-weight: 900;
             font-size: 1.6rem;
+            border: 2px solid #E8C178;
+            font-size: 2rem;
+            font-weight: 700;
+            color: #E8C178;
+            line-height: 3rem;
         }
-   }
+    }
 }
