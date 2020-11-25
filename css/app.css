@@ -633,8 +633,12 @@ body::-webkit-scrollbar-thumb {
 @media (max-width: 992px) {
   .hero_buttons a {
     margin-bottom: 1rem;
-    font-weight: 900;
     font-size: 1.6rem;
+    border: 2px solid #E8C178;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #E8C178;
+    line-height: 3rem;
   }
 }
 /*# sourceMappingURL=app.css.map */
