@@ -335,7 +335,10 @@ body::-webkit-scrollbar-thumb {
     }
 
     a {
-
+        &:hover{
+            background-color: #E8C178;
+            color:white;
+        }
         width: 100%;
         border: 5px solid #E8C178;
         text-align: center;

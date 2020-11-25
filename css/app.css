@@ -630,6 +630,11 @@ body::-webkit-scrollbar-thumb {
   line-height: 4rem;
 }
 
+.hero_buttons a:hover {
+  background-color: #E8C178;
+  color: white;
+}
+
 @media (max-width: 992px) {
   .hero_buttons a {
     margin-bottom: 1rem;
