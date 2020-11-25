@@ -337,7 +337,8 @@ body::-webkit-scrollbar-thumb {
     a {
         &:hover{
             background-color: #E8C178;
-            color:white;
+            color:black;
+            transition: all 0.3s;
         }
         width: 100%;
         border: 5px solid #E8C178;
